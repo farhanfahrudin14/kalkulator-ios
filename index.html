@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kalkulator Simple</title>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+<div class="container">
+    <table border="0" cellspacing="0">
+        <tr>
+            <td colspan="4" id="inputLabel">0</td>
+        </tr>
+        <tr>
+            <td ><button onclick="pushBtn(this);" class="percent">AC</button></td>
+            <td ><button onclick="pushBtn(this);" class="percent">+/-</button></td>
+            <td ><button onclick="pushBtn(this);" class="percent">%</button></td>
+            <td><button onclick="pushBtn(this);">/</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="pushBtn(this);" class="numbers">7</button></td>
+            <td><button onclick="pushBtn(this);" class="numbers">8</button></td>
+            <td><button onclick="pushBtn(this);" class="numbers">9</button></td>
+            <td><button onclick="pushBtn(this);">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="pushBtn(this);" class="numbers">4</button></td>
+            <td><button onclick="pushBtn(this);" class="numbers">5</button></td>
+            <td><button onclick="pushBtn(this);" class="numbers">6</button></td>
+            <td><button onclick="pushBtn(this);">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="pushBtn(this);" class="numbers">1</button></td>
+            <td><button onclick="pushBtn(this);" class="numbers">2</button></td>
+            <td><button onclick="pushBtn(this);" class="numbers">3</button></td>
+            <td><button onclick="pushBtn(this);">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="pushBtn(this);" class="numbersZero">0</button></td>
+            <td><button onclick="pushBtn(this);" class="numbers">,</button></td>
+            <td><button onclick="pushBtn(this);">=</button></td>
+        </tr>
+    </table>
+</div>
+ 
+<script src="index.js"></script>
+</body>
+</html>
